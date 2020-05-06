@@ -10,25 +10,25 @@ The thing I think would be most beneficial/fun to make (that I would love to hav
 We could do the whole UI ouselves and make it sexy and I think it would be a good way to blend the online lessons and learn from existing code that people have written so we don't try to reinvent the wheel in certain areas like you mentioned.
 
 ## MVP
-*	Product Goal #1
-*	Product Goal #2
-*	Product Goal #3
+*	Product Goal #1 - Provide the user with a simple platform for the user to create a personal financial plan (monthly budget and long savings plan)
+*	Product Goal #2 - Product should be capable of accessing user financial accounts to obtain data on the user's financial activity
+*	Product Goal #3 - create an interactive tool that provides visual representation of the correlation between spending habits and savings trajectory, giving them the ability to modify either financial plan on this information
 
 
 ## Stretch Goals
-*	Stretch Goal #1
-*	Stretch Goal #2
-*	Stretch Goal #3
+*	Stretch Goal #1 - Automatic transaction categorization of purchases from new entities
+*	Stretch Goal #2 - Incorporate funds from brokerage accounts into long term savings plans
+*	Stretch Goal #3 - Realtime activity updates
 
 ## Database Schema
 
 
 ## User Stories
-* As a user, I should be able to...
-* As a user, I should be able to...
-* As a user, I should be able to...
-* As a user, I should be able to...
-* As a user, I should be able to...
+* As a user, I should be able to... create and customize my financial plan with subcategories and the option to budget/save based on a percentage of a category's total allocation or a flat sum 
+* As a user, I should be able to... access snapshots of past financial states and easily understand my current financial trajectory
+* As a user, I should be able to... know my net worth accross all accounts after monthly expenses are accounted for
+* As a user, I should be able to... use the interactive visual tool to expedite my planning process
+* As a user, I should be able to... create multiple plans and factor in future expenses
 
 ## Program flexibility thoughts
 
