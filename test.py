@@ -14,6 +14,9 @@ db = mysql.connector.connect(
 
 mycursor = db.cursor()
 
+# THIS IS WHAT I USED TO CREATE A TABLE IN MY DB FOR THIS INFO - YOU WILL NEED TO RUN IT ONCE BEFORE ATTEMPTING TO ENTER ANY DATA
+# mycursor.execute("CREATE TABLE Statement (transaction_date DATE, post_date DATE, description VARCHAR(50), category VARCHAR(50), type VARCHAR(50), amount smallint)")
+
 
 query = """INSERT INTO statement (description, category, type, amount) VALUES (%s,%s,%s,%s)"""
 
