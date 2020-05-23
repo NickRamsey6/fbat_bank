@@ -6,6 +6,10 @@ class Statement(models.Model):
     text = models.CharField(max_length=200)
     date_added = models.DateTimeField(auto_now_add=True)
 
+    def __str__(self):
+        """Return a string representation of the model"""
+        return self.text
+
 class Transaction(models.Model):
      """a specific transaction from a specific statement"""
      statement = models.ForeignKey(
