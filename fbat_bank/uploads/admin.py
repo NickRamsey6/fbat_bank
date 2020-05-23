@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from uploads.models import Statement, Transaction
+from uploads.models import Statement
 
 admin.site.register(Statement)
-admin.site.register(Transaction)
+# admin.site.register(Transaction)
